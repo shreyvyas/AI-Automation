@@ -1,0 +1,26 @@
+upper()
+lower()
+strip()
+replace()
+split()
+join()
+startswith()
+endswith()
+find()
+count()
+isalnum()
+isalpha()
+isdigit()
+isspace()
+title()
+
+String Indexing and Slicing
+myStr = "Shrey"
+myStr[0]
+myStr[1]
+myStr[-1]
+
+myStr = "abcdefghijk"
+myStr[0:]
+myStr[2:5]
+myStr[:5]
