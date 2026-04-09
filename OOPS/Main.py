@@ -1,6 +1,8 @@
 from Encap1 import User
 from Encap2 import User1
 from Encap3 import User3
+from Inherit1 import Parent
+from Inherit2 import Child
 
 u1 = User()
 u1.setName("Shrey")
@@ -19,3 +21,9 @@ u3 = User3()
 u3.setName("Shrey")
 print(u3.getName())
 #print(u3.__name)
+
+
+ch1 = Child()
+#result = ch1.printDetails()
+#print(result)
+ch1.printHello()
