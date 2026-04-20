@@ -9,3 +9,5 @@ class APIClient:
 
     def post(self, endpoint, data):
         return requests.post(f"{self.BASE_URL}{endpoint}", json=data)
+    
+   
